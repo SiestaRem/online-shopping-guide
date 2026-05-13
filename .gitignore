@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+target/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Java / IDE
+*.class
+.idea/
+.vscode/
+
+# Logs
+*.log
+logs/
+.claude/hooks/*.log
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.jks
+credentials*
+*.secret
+.htpasswd
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Claude local settings
+.claude/settings.local.json
